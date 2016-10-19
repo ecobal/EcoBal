@@ -76,7 +76,9 @@
     <Compile Include="Assets\Script\Hayashi\Player_Shoot.cs" />
     <Compile Include="Assets\Script\Hayashi\Time2Death.cs" />
     <Compile Include="Assets\Script\Hayashi\title_Controller.cs" />
-    <Compile Include="Assets\Script\Matsukawa\BallonFloating.cs" />
+    <Compile Include="Assets\Script\Matsukawa\AutoDestory.cs" />
+    <Compile Include="Assets\Script\Matsukawa\BalloonDestroy.cs" />
+    <Compile Include="Assets\Script\Matsukawa\BalloonMove.cs" />
     <Compile Include="Assets\Script\Matsukawa\PlayerSearch.cs" />
   </ItemGroup>
   <ItemGroup>

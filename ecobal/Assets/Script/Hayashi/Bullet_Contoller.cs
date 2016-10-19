@@ -19,7 +19,11 @@ public class Bullet_Contoller : MonoBehaviour {
 
     void OnCollisionEnter(Collision col)
     {
+        /*
         if (col.collider.tag == "Enemy") col.gameObject.SendMessage("DestroyObject");
+        else Destroy(gameObject);
+        */
+        if (col.collider.tag == "Enemy") Destroy(col.gameObject);
         else Destroy(gameObject);
     }
 
