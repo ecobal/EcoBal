@@ -68,6 +68,7 @@
     <Compile Include="Assets\Script\Hayashi\Camera_Chase.cs" />
     <Compile Include="Assets\Script\Hayashi\Player_Move.cs" />
     <Compile Include="Assets\Script\Hayashi\Player_Shoot.cs" />
+    <Compile Include="Assets\Script\Hayashi\ShotShell.cs" />
     <Compile Include="Assets\Script\Hayashi\Time2Death.cs" />
     <Compile Include="Assets\Script\Hayashi\title_Controller.cs" />
   </ItemGroup>
