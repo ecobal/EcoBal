@@ -8,6 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_fujitani/Scene/titlemodoki.unity
   - enabled: 1
+    path: Assets/Scene/Hayashi/HayashiMainScene.unity
+  - enabled: 1
     path: Assets/Scene/ProtoTestScene.unity
   - enabled: 1
     path: Assets/_fujitani/Scene/gameoverModoki.unity
