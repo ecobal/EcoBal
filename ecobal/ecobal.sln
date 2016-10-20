@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecobal.CSharp.Plugins", "ecobal.CSharp.Plugins.csproj", "{385DF68E-321E-8BA4-7975-0A63593BF5B6}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecobal.CSharp", "ecobal.CSharp.csproj", "{B866A4DC-AE69-5E11-68D0-A0753DD525EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecobal.CSharp.Editor", "ecobal.CSharp.Editor.csproj", "{4AD7170F-19DF-B9A7-F79D-70D81E0E5E2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{385DF68E-321E-8BA4-7975-0A63593BF5B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385DF68E-321E-8BA4-7975-0A63593BF5B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385DF68E-321E-8BA4-7975-0A63593BF5B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385DF68E-321E-8BA4-7975-0A63593BF5B6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B866A4DC-AE69-5E11-68D0-A0753DD525EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B866A4DC-AE69-5E11-68D0-A0753DD525EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B866A4DC-AE69-5E11-68D0-A0753DD525EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B866A4DC-AE69-5E11-68D0-A0753DD525EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AD7170F-19DF-B9A7-F79D-70D81E0E5E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD7170F-19DF-B9A7-F79D-70D81E0E5E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD7170F-19DF-B9A7-F79D-70D81E0E5E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD7170F-19DF-B9A7-F79D-70D81E0E5E2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

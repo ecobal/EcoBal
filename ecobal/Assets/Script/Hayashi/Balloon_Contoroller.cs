@@ -4,6 +4,7 @@ using System.Collections;
 public class Balloon_Contoroller : MonoBehaviour {
 
     public GameObject deathEffect;
+    public GameObject deathEffectExposion;
 
 	// Use this for initialization
 	void Start () {
@@ -17,9 +18,7 @@ public class Balloon_Contoroller : MonoBehaviour {
 
     void DestroyObject()
     {
-        Destroy(gameObject);
+        Destroy(transform.parent.gameObject);
         Instantiate(deathEffect, transform.position, transform.rotation);
-
-
     }
 }
