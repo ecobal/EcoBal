@@ -53,7 +53,8 @@ public class FadeEffect : MonoBehaviour
 
     void Start()
     {
-        alpha = 0;
+        alpha = 1;
+        fadestate = FadeState.FadeIn;
     }
 
     void Update()

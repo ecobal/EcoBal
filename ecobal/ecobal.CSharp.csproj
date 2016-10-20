@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Hayashi\Balloon_Contoroller.cs" />
+    <Compile Include="Assets\Script\Hayashi\BulletDebugCode.cs" />
     <Compile Include="Assets\Script\Hayashi\Bullet_Contoller.cs" />
     <Compile Include="Assets\Script\Hayashi\Camera_Chase.cs" />
     <Compile Include="Assets\Script\Hayashi\DropItem.cs" />

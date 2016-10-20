@@ -23,6 +23,7 @@ GameObject:
   - 136: {fileID: 136000010133609990}
   - 114: {fileID: 114000010234706758}
   - 96: {fileID: 96000013932921218}
+  - 114: {fileID: 114000013154439310}
   m_Layer: 8
   m_Name: PenetratBullet
   m_TagString: Untagged
@@ -184,6 +185,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f8eca7b34c2030f419bb9991efa49efe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114000013154439310
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010122202798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c0c420ab2977b545bf65d12af89fd2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!136 &136000010133609990

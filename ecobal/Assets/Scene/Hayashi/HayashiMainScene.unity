@@ -3802,7 +3802,7 @@ MonoBehaviour:
     type: 2}
   ShotShell: {fileID: 1000014068188364, guid: 99e81cb884db2e04b81ce47b6bf0a2b7, type: 2}
   shootbullet: 0
-  DefaultBulletID: 2
+  DefaultBulletID: 0
 --- !u!114 &1104848940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3811,7 +3811,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1104848936}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc486a6cd0a3c154e969c59e9df345ca, type: 3}
+  m_Script: {fileID: 11500000, guid: 73052f7cfd180fa4cbbf2f9f9581f612, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1104848941
