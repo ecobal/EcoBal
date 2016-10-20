@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Fujitani\GollPoint.cs" />
+    <Compile Include="Assets\Script\Fujitani\Image_Controller.cs" />
     <Compile Include="Assets\Script\Fujitani\Player_HP.cs" />
     <Compile Include="Assets\Script\Fujitani\gameover_Controller.cs" />
     <Compile Include="Assets\Script\Fujitani\title_Controller.cs" />
