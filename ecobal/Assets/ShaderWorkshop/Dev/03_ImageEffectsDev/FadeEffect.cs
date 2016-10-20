@@ -76,6 +76,13 @@ public class FadeEffect : MonoBehaviour
         material.SetFloat("_Alpha", alpha);
     }
 
+    public void ChangeState()
+    {
+        fadestate = FadeState.FadeOut;
+
+    }
+
+
     void OnRenderImage(RenderTexture source, RenderTexture destination)
     {
         // materialを用いて画面を描画

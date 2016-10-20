@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class title_Controller : MonoBehaviour {
+public class End_Zone : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -14,8 +14,11 @@ public class title_Controller : MonoBehaviour {
 	
 	}
 
-    public void go()
+    void OnCollisionEnter(Collision col)
     {
-        SceneManager.LoadScene("ProtoTestScene");
+        if(col.collider.tag == "Player")
+        {
+            SceneManager.LoadScene("ProtoTestScene");
+        }
     }
 }
