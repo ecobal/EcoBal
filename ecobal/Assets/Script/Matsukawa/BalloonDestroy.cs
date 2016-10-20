@@ -5,6 +5,7 @@ public class BalloonDestroy : MonoBehaviour
 {
     public GameObject deathEffect;
     public GameObject deathEffectExplosion;
+    public static bool isQUitting = false;
 
     public bool explosion;
 
@@ -13,9 +14,18 @@ public class BalloonDestroy : MonoBehaviour
         if (other.collider.tag == "Player") Destroy(gameObject);
     }
 
+    void OnApplicationQuit()
+    {
+        isQUitting = true;
+    }
+
+
     void OnDestroy()
     {
-        if (explosion) Instantiate(deathEffectExplosion, transform.position, transform.rotation);
-        else if (!explosion) Instantiate(deathEffect, transform.position, transform.rotation);
+        if (!isQUitting)
+        {
+            if (explosion) Instantiate(deathEffectExplosion, transform.position, transform.rotation);
+            else if (!explosion) Instantiate(deathEffect, transform.position, transform.rotation);
+        }
     }
 }

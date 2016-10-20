@@ -20,6 +20,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000013193238856}
   - 114: {fileID: 114000013487028088}
+  - 54: {fileID: 54000013776760272}
+  - 114: {fileID: 114000013348204114}
   m_Layer: 0
   m_Name: ShotShell
   m_TagString: Untagged
@@ -40,6 +42,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!54 &54000013776760272
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014068188364}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &114000013348204114
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014068188364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8eca7b34c2030f419bb9991efa49efe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114000013487028088
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -53,5 +81,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShellBullet: {fileID: 1000014283576708, guid: f2a13c6cbe5cbeb4da4f39f26f30ad68,
     type: 2}
-  ShellCount: 100
-  ShellSpeed: 0
+  ShellCount: 50
+  SpledRange: 45

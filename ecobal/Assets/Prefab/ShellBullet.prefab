@@ -22,8 +22,8 @@ GameObject:
   - 33: {fileID: 33000011724750518}
   - 135: {fileID: 135000010342708230}
   - 23: {fileID: 23000013438233744}
-  - 114: {fileID: 114000010367800094}
   - 54: {fileID: 54000013448811266}
+  - 114: {fileID: 114000012364545056}
   m_Layer: 8
   m_Name: ShellBullet
   m_TagString: Untagged
@@ -57,7 +57,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 6ed6bfce17b7ae74696dc786e3da0935, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -93,9 +93,9 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &114000010367800094
+--- !u!114 &114000012364545056
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -103,11 +103,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000014283576708}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f656dcade2dd4594e86434713a22711e, type: 3}
+  m_Script: {fileID: 11500000, guid: f8eca7b34c2030f419bb9991efa49efe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathEffect: {fileID: 1000011017750098, guid: 2c66aecf4b433e94fb2b38e67fc916fc,
-    type: 2}
 --- !u!135 &135000010342708230
 SphereCollider:
   m_ObjectHideFlags: 1

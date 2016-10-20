@@ -7,20 +7,27 @@ public class ShotShell : MonoBehaviour {
     public GameObject ShellBullet;
     public int ShellCount;
     GameObject[] Shell = new GameObject[10];
-    public float ShellSpeed;
+    float ShellSpeed;
+    public float SpledRange;
 
     GameObject player;
+
+   
 
 
 	// Use this for initialization
 	void Start () {
+        Shell = new GameObject[ShellCount];
         player = GameObject.FindGameObjectWithTag("Player");
-        ShellSpeed = player.GetComponent<Player_Shoot>().BulletSpeed/50;
+        ShellSpeed = player.GetComponent<Player_Shoot>().BulletSpeed;
         for (int i = 0; i < Shell.Length-1; i++)
         {
-            Shell[i] = Instantiate(ShellBullet,transform.position, Quaternion.Euler(Random.Range(0, 90), Random.Range(0, 90), Random.Range(0, 90))) as GameObject;
-            Shell[i].transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
-            Shell[i].GetComponent<Rigidbody>().AddForce(new Vector3(Random.Range(0, 90), Random.Range(0, 90), Random.Range(0, 90)) * ShellSpeed);
+            Shell[i] = Instantiate(ShellBullet,transform.position, transform.rotation) as GameObject;
+            Shell[i].transform.localScale = new Vector3(0.05f, 0.05f, 0.05f);
+            Shell[i].transform.rotation = Quaternion.Euler(Random.Range(-SpledRange, SpledRange), Random.Range(-SpledRange, SpledRange), Random.Range(-SpledRange, SpledRange));
+            Shell[i].GetComponent<Rigidbody>().AddForce(Shell[i].transform.forward * ShellSpeed);
+            //Shell[i].GetComponent<Rigidbody>().AddForce(new Vector3(0, 0, 1) * ShellSpeed);
+
             Shell[i].transform.parent = transform;
         }
 

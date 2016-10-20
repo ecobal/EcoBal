@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000010877759142}
   - 65: {fileID: 65000011329682152}
   - 114: {fileID: 114000011158358528}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SearchingArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   - 54: {fileID: 54000014083416268}
   - 114: {fileID: 114000013945431514}
   - 114: {fileID: 114000012499485570}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ballon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,7 +58,7 @@ GameObject:
   - 33: {fileID: 33000012712377466}
   - 23: {fileID: 23000012331656640}
   - 65: {fileID: 65000012831262864}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: BalloonObject
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -203,7 +203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 496ed3ef9d76ae844b514957b9daf08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathEffect: {fileID: 1000011088449218, guid: 015dbe4baeb77074686289000a94e25e,
+  deathEffect: {fileID: 1000012036364078, guid: f1c10bb5dc63fd943a2303dce660399c,
     type: 2}
   deathEffectExplosion: {fileID: 1000012203086672, guid: 6a1c92038dee2ed41ad628be25d03ee1,
     type: 2}
@@ -230,7 +230,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 1.0653081
-  m_Height: 3.0848851
+  m_Radius: 0.1
+  m_Height: 0.3
   m_Direction: 1
-  m_Center: {x: 0, y: -0.2, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}

@@ -27,4 +27,9 @@ public class Bullet_Contoller : MonoBehaviour {
         else Destroy(gameObject);
     }
 
+    void OnTriggerEnter(Collider col)
+    {
+        if (col.tag == "Enemy") Destroy(col.gameObject);
+
+    }
 }

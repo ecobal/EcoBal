@@ -11,10 +11,24 @@ public class Player_Shoot : MonoBehaviour {
     public float LimitRange;
 
     [SerializeField, Tooltip("弾のプレハブ")]
-    public GameObject BulletPrefab;
+    public GameObject normalBullet;
+    public GameObject PenertrateBullet;
+    public GameObject ShotShell;
     GameObject Bullet;
+
+    public enum ShootBullet
+    {
+        Normal,
+        Penatrte,
+        ShellShot
+
+    }
+
+    public ShootBullet shootbullet;
+    public int DefaultBulletID;
 	// Use this for initialization
 	void Start () {
+        shootbullet = (ShootBullet)DefaultBulletID;
 	
 	}
 	
@@ -26,8 +40,27 @@ public class Player_Shoot : MonoBehaviour {
 
     void Shoot()
     {
-        Bullet = Instantiate(BulletPrefab, transform.position+transform.forward*0.5f, transform.rotation) as GameObject;
+        GameObject bulletprefab =null;
+        switch (shootbullet)
+        {
+            case ShootBullet.Normal:
+                bulletprefab = normalBullet;
+                break;
+            case ShootBullet.Penatrte:
+                bulletprefab = PenertrateBullet;
+                break;
+            case ShootBullet.ShellShot:
+                bulletprefab = ShotShell;
+                break;
+        }
+        Bullet = Instantiate(bulletprefab, transform.position+transform.forward*0.5f, transform.rotation) as GameObject;
         Bullet.GetComponent<Rigidbody>().AddForce(Vector3.forward * BulletSpeed);
+        if (shootbullet != 0) shootbullet = (ShootBullet)DefaultBulletID;
 
+    }
+
+    public void GetSpecialBullet(int number)
+    {
+        shootbullet = (ShootBullet)number;
     }
 }

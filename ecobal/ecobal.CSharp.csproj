@@ -72,17 +72,21 @@
     <Compile Include="Assets\Script\Hayashi\Balloon_Contoroller.cs" />
     <Compile Include="Assets\Script\Hayashi\Bullet_Contoller.cs" />
     <Compile Include="Assets\Script\Hayashi\Camera_Chase.cs" />
+    <Compile Include="Assets\Script\Hayashi\DropItem.cs" />
     <Compile Include="Assets\Script\Hayashi\Player_Move.cs" />
     <Compile Include="Assets\Script\Hayashi\Player_Shoot.cs" />
     <Compile Include="Assets\Script\Hayashi\ShotShell.cs" />
+    <Compile Include="Assets\Script\Hayashi\TakeItem.cs" />
     <Compile Include="Assets\Script\Hayashi\Time2Death.cs" />
     <Compile Include="Assets\Script\Hayashi\title_Controller.cs" />
     <Compile Include="Assets\Script\Matsukawa\AutoDestory.cs" />
     <Compile Include="Assets\Script\Matsukawa\BalloonDestroy.cs" />
     <Compile Include="Assets\Script\Matsukawa\BalloonMove.cs" />
     <Compile Include="Assets\Script\Matsukawa\PlayerSearch.cs" />
+    <Compile Include="Assets\ShaderWorkshop\Dev\03_ImageEffectsDev\FadeEffect.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\ShaderWorkshop\Dev\03_ImageEffectsDev\FadeEffect.shader" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
