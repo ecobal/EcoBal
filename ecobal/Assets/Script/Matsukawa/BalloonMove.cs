@@ -3,8 +3,9 @@ using System.Collections;
 
 public class BalloonMove : MonoBehaviour
 {
-    public float floatMultipule;
+    public float floatRange;
 
+    private float rnd;
     private Vector3 moveVector;
 
     public bool chase;
@@ -16,13 +17,14 @@ public class BalloonMove : MonoBehaviour
     void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
+        rnd = Random.Range(0, 359);
         player = GameObject.FindGameObjectWithTag("Player").gameObject;
     }
 
     void Update()
     {
         // 浮遊
-        moveVector.y = floatMultipule * Mathf.Sin(Time.realtimeSinceStartup);
+        moveVector.y = floatRange * Mathf.Sin(rnd + Time.realtimeSinceStartup);
         // 追跡
         if (chase && chaseMode) transform.position = Vector2.Lerp(transform.position, player.transform.position, 1 * Time.deltaTime);
         // 移動
