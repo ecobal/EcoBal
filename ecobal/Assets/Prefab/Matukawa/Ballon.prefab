@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000010877759142}
   - 65: {fileID: 65000011329682152}
   - 114: {fileID: 114000011158358528}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: SearchingArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   - 54: {fileID: 54000014083416268}
   - 114: {fileID: 114000013945431514}
   - 114: {fileID: 114000012499485570}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Ballon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012817721616}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 29.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -219,9 +219,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa33e6d6c063aa241a5f86770488e47c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floatRange: 1
-  startRadians: 205
-  chase: 1
+  floatRange: 0
+  chase: 0
 --- !u!136 &136000010559305140
 CapsuleCollider:
   m_ObjectHideFlags: 1
