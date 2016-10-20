@@ -82,8 +82,9 @@
     <Compile Include="Assets\Script\Matsukawa\AutoDestory.cs" />
     <Compile Include="Assets\Script\Matsukawa\BalloonDestroy.cs" />
     <Compile Include="Assets\Script\Matsukawa\BalloonMove.cs" />
+    <Compile Include="Assets\Script\Matsukawa\IndicateReticle.cs" />
     <Compile Include="Assets\Script\Matsukawa\PlayerSearch.cs" />
-    <Compile Include="Assets\Script\Matsukawa\ReticleRay.cs" />
+    <Compile Include="Assets\Script\Matsukawa\RayJudge.cs" />
     <Compile Include="Assets\ShaderWorkshop\Dev\03_ImageEffectsDev\FadeEffect.cs" />
     <Compile Include="Assets\_fujitani\Script\GollPoint.cs" />
     <Compile Include="Assets\_fujitani\Script\Player_HP.cs" />
