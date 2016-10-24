@@ -69,6 +69,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\Fujitani\GollPoint.cs" />
+    <Compile Include="Assets\Script\Fujitani\Image_Controller.cs" />
+    <Compile Include="Assets\Script\Fujitani\Player_HP.cs" />
+    <Compile Include="Assets\Script\Fujitani\gameover_Controller.cs" />
+    <Compile Include="Assets\Script\Fujitani\title_Controller.cs" />
     <Compile Include="Assets\Script\Hayashi\Balloon_Contoroller.cs" />
     <Compile Include="Assets\Script\Hayashi\BulletDebugCode.cs" />
     <Compile Include="Assets\Script\Hayashi\Bullet_Contoller.cs" />
@@ -90,10 +95,6 @@
     <Compile Include="Assets\Script\Matsukawa\PlayerSearch.cs" />
     <Compile Include="Assets\Script\Matsukawa\RayJudge.cs" />
     <Compile Include="Assets\ShaderWorkshop\Dev\03_ImageEffectsDev\FadeEffect.cs" />
-    <Compile Include="Assets\_fujitani\Script\GollPoint.cs" />
-    <Compile Include="Assets\_fujitani\Script\Player_HP.cs" />
-    <Compile Include="Assets\_fujitani\Script\gameover_Controller.cs" />
-    <Compile Include="Assets\_fujitani\Script\title_Controller.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ShaderWorkshop\Dev\03_ImageEffectsDev\FadeEffect.shader" />

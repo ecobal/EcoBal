@@ -4,9 +4,13 @@ using UnityEngine.SceneManagement;
 
 public class Player_HP : MonoBehaviour
 {
+    private GameObject imaje;
 
     [SerializeField]
-    private int hp;
+    private float hp;
+
+    [SerializeField]
+    private float downHp;
 
     [SerializeField]
     private string sceneName;
@@ -26,10 +30,15 @@ public class Player_HP : MonoBehaviour
     {
         if (col.collider.tag == "Enemy")
         {
-            hp--;
-            col.gameObject.SendMessage("DestroyObject");
+            hp -= downHp;
+            Destroy(col.gameObject);
         }
         if (hp > 0) return;
         SceneManager.LoadScene(sceneName);
+    }
+
+    public float GetHP()
+    {
+        return hp;
     }
 }

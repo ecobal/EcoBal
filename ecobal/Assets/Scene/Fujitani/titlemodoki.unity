@@ -352,6 +352,21 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ChangeScene
       objectReference: {fileID: 0}
+    - target: {fileID: 224000013511311822, guid: 53be2b53a3a64f44a83292baa163d917,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000013511311822, guid: 53be2b53a3a64f44a83292baa163d917,
+        type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000013511311822, guid: 53be2b53a3a64f44a83292baa163d917,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114000012258944818, guid: 53be2b53a3a64f44a83292baa163d917, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 53be2b53a3a64f44a83292baa163d917, type: 2}
