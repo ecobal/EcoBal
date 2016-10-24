@@ -109,6 +109,7 @@
     <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\ShaderWorkshop\Dev\02_Outline\OutLineDev.shader" />
     <None Include="Assets\ShaderWorkshop\Dev\03_ImageEffectsDev\FadeEffect.shader" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
