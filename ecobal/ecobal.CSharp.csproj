@@ -73,6 +73,7 @@
     <Compile Include="Assets\Script\Hayashi\BulletDebugCode.cs" />
     <Compile Include="Assets\Script\Hayashi\Bullet_Contoller.cs" />
     <Compile Include="Assets\Script\Hayashi\Camera_Chase.cs" />
+    <Compile Include="Assets\Script\Hayashi\CreateSphere.cs" />
     <Compile Include="Assets\Script\Hayashi\DropItem.cs" />
     <Compile Include="Assets\Script\Hayashi\End_Zone.cs" />
     <Compile Include="Assets\Script\Hayashi\Icon_Controller.cs" />
