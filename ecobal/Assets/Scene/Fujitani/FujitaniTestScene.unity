@@ -339,31 +339,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114000011899801036, guid: d102bf705f578e7419a96e13141c6c92,
-        type: 2}
-      propertyPath: m_FillAmount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011899801036, guid: d102bf705f578e7419a96e13141c6c92,
-        type: 2}
-      propertyPath: m_RaycastTarget
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011899801036, guid: d102bf705f578e7419a96e13141c6c92,
-        type: 2}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011899801036, guid: d102bf705f578e7419a96e13141c6c92,
-        type: 2}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011899801036, guid: d102bf705f578e7419a96e13141c6c92,
-        type: 2}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d102bf705f578e7419a96e13141c6c92, type: 2}
   m_IsPrefabParent: 0
@@ -504,22 +479,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 08e0035a30c8bee4c975192ee4bcdf07, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1277376598 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1000011236687108, guid: d102bf705f578e7419a96e13141c6c92,
-    type: 2}
-  m_PrefabInternal: {fileID: 677430932}
---- !u!114 &1277376600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1277376598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0212ff29c710d74f84036c1b3418aa2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1312161407
 Prefab:
   m_ObjectHideFlags: 0

@@ -10,10 +10,6 @@ public class BalloonDestroy : MonoBehaviour
     public bool explosion;
 
 
-    void OnCollisionEnter(Collision other)
-    {
-        if (other.collider.tag == "Player") other.gameObject.SendMessage("Init");
-    }
 
     void OnApplicationQuit()
     {

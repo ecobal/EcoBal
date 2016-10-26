@@ -4,20 +4,27 @@ using System.Collections;
 public class PenetratBullet : MonoBehaviour {
 
     GameObject player;
+    float limitrange;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         player = GameObject.FindGameObjectWithTag("Player");
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+        limitrange = player.GetComponent<Player_Shoot>().LimitRange * 2;
+
+
+    }
+
+    // Update is called once per frame
+    void Update () {
+        if (Vector3.Distance(transform.position, player.transform.position) >= limitrange) Destroy(gameObject);
+
+
+    }
 
     void OnTriggerEnter(Collider col)
     {
+        if (col.tag == "Enemy") Destroy(col.gameObject);
+        else Destroy(gameObject);
 
     }
 

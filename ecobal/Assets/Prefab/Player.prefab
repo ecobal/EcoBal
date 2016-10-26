@@ -23,7 +23,7 @@ GameObject:
   - 65: {fileID: 65000013029502888}
   - 114: {fileID: 114000014142175288}
   - 114: {fileID: 114000013365930030}
-  - 114: {fileID: 114000010331300684}
+  - 114: {fileID: 114000010739182436}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -138,7 +138,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.2, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114000010331300684
+--- !u!114 &114000010739182436
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -146,9 +146,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000012887876696}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: b8ca8e7cc39502143a8e9c12a44a0bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hp: 1
+  downHp: 0.2
+  sceneName: gameoverModoki
 --- !u!114 &114000013365930030
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -161,13 +164,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BulletSpeed: 500
-  LimitRange: 10
+  LimitRange: 100
   normalBullet: {fileID: 1000011398359548, guid: 3135b1ad73603e842ab93024e1b09925,
     type: 2}
   PenertrateBullet: {fileID: 1000010122202798, guid: bc6e57e98d79b9244a06a8dfdab610cc,
     type: 2}
   ShotShell: {fileID: 1000014068188364, guid: 99e81cb884db2e04b81ce47b6bf0a2b7, type: 2}
-  shootbullet: 0
+  shootbullet: 1
   DefaultBulletID: 0
 --- !u!114 &114000014142175288
 MonoBehaviour:

@@ -6,10 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_fujitani/Scene/titlemodoki.unity
-  - enabled: 1
-    path: Assets/Scene/Hayashi/HayashiMainScene.unity
+    path: Assets/Scene/Fujitani/titlemodoki.unity
   - enabled: 1
     path: Assets/Scene/ProtoTestScene.unity
   - enabled: 1
-    path: Assets/_fujitani/Scene/gameoverModoki.unity
+    path: Assets/Scene/Fujitani/gameoverModoki.unity

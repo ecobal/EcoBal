@@ -8,7 +8,7 @@ public class DropItem : MonoBehaviour {
 
     void OnDestroy()
     {
-        Debug.Log("death");
+
         int i = Random.Range(0, 2);
         if (!BalloonDestroy.isQUitting)
         {

@@ -46,7 +46,7 @@
 			v2f vert (appdata v)
 			{
 				v2f o;
-				v.vertex.xyz += _String * v.normal.xyz;
+				v.vertex.xyz += _String * normalize(v.normal.xyz);
 				o.vertex = UnityObjectToClipPos(v.vertex);
 				o.uv = TRANSFORM_TEX(v.uv, _MainTex);
 				UNITY_TRANSFER_FOG(o,o.vertex);
