@@ -11,6 +11,8 @@ public class BalloonMove : MonoBehaviour
     public bool chase;
     private bool chaseMode;
 
+    public bool bombThrow;
+
     Rigidbody rigidbody;
     private GameObject player;
 
@@ -35,6 +37,15 @@ public class BalloonMove : MonoBehaviour
     void DetectPlayer()
     {
         chaseMode = true;
+        if (bombThrow) SendMessage("OnThrowMode");
+    }
+    #endregion
+
+    #region Player見失う
+    void LostPlayer()
+    {
+        chaseMode = false;
+        if (bombThrow) SendMessage("OffThrowMode");
     }
     #endregion
 }
