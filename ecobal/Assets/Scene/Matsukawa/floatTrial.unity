@@ -201,6 +201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   turnSpeed: 2
+  SpwanPoint: {fileID: 0}
 --- !u!114 &267126932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,8 +215,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BulletSpeed: 1000
   LimitRange: 100
-  BulletPrefab: {fileID: 1000011398359548, guid: 3135b1ad73603e842ab93024e1b09925,
-    type: 2}
+  normalBullet: {fileID: 0}
+  PenertrateBullet: {fileID: 0}
+  ShotShell: {fileID: 0}
+  shootbullet: 0
+  DefaultBulletID: 0
 --- !u!1001 &370032774
 Prefab:
   m_ObjectHideFlags: 0
@@ -269,6 +273,11 @@ Prefab:
       propertyPath: chase
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: floatRange
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -314,6 +323,11 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: floatRange
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -371,6 +385,11 @@ Prefab:
         type: 2}
       propertyPath: chase
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: floatRange
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}

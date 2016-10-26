@@ -15,6 +15,15 @@ public class PlayerSearch : MonoBehaviour
         if(other.tag == "Player")
         {
             parentObject.SendMessage("DetectPlayer");
+
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if(other.tag == "Player")
+        {
+            parentObject.SendMessage("LostPlayer");
         }
     }
 }
