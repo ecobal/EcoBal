@@ -37,6 +37,17 @@ public class Player_HP : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
+    void OnTriggerEnter(Collider col)
+    {
+        if (col.tag == "Enemy")
+        {
+            hp -= downHp;
+            Destroy(col.gameObject);
+        }
+        if (hp >= 0) return;
+        SceneManager.LoadScene(sceneName);
+    }
+
     public float GetHP()
     {
         return hp;

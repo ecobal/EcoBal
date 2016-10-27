@@ -54,7 +54,7 @@ public class Player_Shoot : MonoBehaviour {
                 break;
         }
         Bullet = Instantiate(bulletprefab, transform.position+transform.forward*0.5f, transform.rotation) as GameObject;
-        Bullet.GetComponent<Rigidbody>().AddForce(Vector3.forward * BulletSpeed);
+        Bullet.GetComponent<Rigidbody>().AddForce(transform.forward * BulletSpeed);
         if (shootbullet != 0) shootbullet = (ShootBullet)DefaultBulletID;
 
     }

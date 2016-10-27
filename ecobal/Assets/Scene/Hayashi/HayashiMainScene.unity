@@ -25,7 +25,7 @@ RenderSettings:
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 0
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: d7aeee70a015cf541ab96787800c7745, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -36,7 +36,7 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
+  m_Sun: {fileID: 811304745}
   m_IndirectSpecularColor: {r: 0.44692504, g: 0.4967869, b: 0.57508504, a: 1}
 --- !u!157 &3
 LightmapSettings:
@@ -756,7 +756,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 7
   m_Type: 1
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 0.9447633, b: 0.7941176, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -1269,7 +1269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_shader: {fileID: 4800000, guid: bc1597ba47f250b4eb6f59de00570d92, type: 3}
-  fadestate: 1
+  fadestate: 0
   color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &1519481840
 Prefab:
@@ -1479,6 +1479,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!1 &1723405625 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000012887876696, guid: 0a941fd1c433281469059b8cd4098235,
+    type: 2}
+  m_PrefabInternal: {fileID: 16870672}
 --- !u!1001 &1729815753
 Prefab:
   m_ObjectHideFlags: 0
@@ -1952,6 +1957,11 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000010170405480, guid: d102bf705f578e7419a96e13141c6c92,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1723405625}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d102bf705f578e7419a96e13141c6c92, type: 2}
   m_IsPrefabParent: 0
