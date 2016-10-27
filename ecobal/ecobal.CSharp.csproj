@@ -92,6 +92,8 @@
     <Compile Include="Assets\Script\Matsukawa\BalloonDestroy.cs" />
     <Compile Include="Assets\Script\Matsukawa\BalloonMove.cs" />
     <Compile Include="Assets\Script\Matsukawa\BombBalloonMove.cs" />
+    <Compile Include="Assets\Script\Matsukawa\BossBattleCamera.cs" />
+    <Compile Include="Assets\Script\Matsukawa\BossBattlePlayerMove.cs" />
     <Compile Include="Assets\Script\Matsukawa\ChaseCamera.cs" />
     <Compile Include="Assets\Script\Matsukawa\IndicateReticle.cs" />
     <Compile Include="Assets\Script\Matsukawa\PlayerSearch.cs" />
