@@ -15,6 +15,8 @@ public class Player_Shoot : MonoBehaviour {
     public GameObject PenertrateBullet;
     public GameObject ShotShell;
     GameObject Bullet;
+    public float LimitSpecialTime;
+    public float SpecialTime;
 
     public enum ShootBullet
     {
@@ -28,6 +30,7 @@ public class Player_Shoot : MonoBehaviour {
     public int DefaultBulletID;
 	// Use this for initialization
 	void Start () {
+        SpecialTime = LimitSpecialTime;
         shootbullet = (ShootBullet)DefaultBulletID;
 	
 	}
@@ -35,8 +38,10 @@ public class Player_Shoot : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         if (Input.GetButtonDown("Fire1")) Shoot();
-	
-	}
+        if ((int)shootbullet != DefaultBulletID) SpecialBulletTime();
+        else if ((int)shootbullet == DefaultBulletID) SpecialTime = LimitSpecialTime;
+
+    }
 
     void Shoot()
     {
@@ -55,12 +60,28 @@ public class Player_Shoot : MonoBehaviour {
         }
         Bullet = Instantiate(bulletprefab, transform.position+transform.forward*0.5f, transform.rotation) as GameObject;
         Bullet.GetComponent<Rigidbody>().AddForce(transform.forward * BulletSpeed);
-        if (shootbullet != 0) shootbullet = (ShootBullet)DefaultBulletID;
 
     }
 
-    public void GetSpecialBullet(int number)
+    void SpecialBulletTime()
+    {
+        SpecialTime -= Time.deltaTime;
+        if(SpecialTime <= 0) shootbullet = (ShootBullet)DefaultBulletID;
+    }
+
+    public void SetSpecialBullet(int number)
     {
         shootbullet = (ShootBullet)number;
+    }
+
+    public int GetSpecialBullet()
+    {
+        return (int)shootbullet;
+    }
+
+    public float SpecialBulletProportion()
+    {
+        Debug.Log(SpecialTime / LimitSpecialTime);
+        return SpecialTime / LimitSpecialTime;
     }
 }

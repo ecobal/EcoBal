@@ -9,7 +9,7 @@ public class TakeItem : MonoBehaviour {
         if (col.collider.tag == "Player")
         {
 
-            col.gameObject.SendMessage("GetSpecialBullet", ItemID);
+            col.gameObject.SendMessage("SetSpecialBullet", ItemID);
             Destroy(gameObject);
         }
     }

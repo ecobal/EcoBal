@@ -1095,12 +1095,12 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 223000010747940166, guid: d102bf705f578e7419a96e13141c6c92,
-        type: 2}
-      propertyPath: m_RenderMode
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 114000010170405480, guid: d102bf705f578e7419a96e13141c6c92,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1148476340}
+    - target: {fileID: 114000011755784460, guid: d102bf705f578e7419a96e13141c6c92,
         type: 2}
       propertyPath: player
       value: 
