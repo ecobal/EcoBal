@@ -12,12 +12,23 @@ public class ActionDecision : MonoBehaviour
     #endregion
 
     public string[] actionName;
-    private int actionNumber;
+    public int[] actionProbability;
+    private int actionNumber = 0;
+    public int actTotalNum;
+    private int rnd;
+
+    void OnValidate()
+    {
+        System.Array.Resize(ref actionProbability, actionName.Length);
+        actTotalNum = 0;
+        for (int i = 0; i < actionProbability.Length; i++) actTotalNum += actionProbability[i];
+    }
 
     void Start()
     {
         isInterval = true;
         actionInterval = maxActionInterval / 2;
+        actionNumber = 0;
     }
 
     void Update()
@@ -32,8 +43,6 @@ public class ActionDecision : MonoBehaviour
     {
         actionInterval = Random.Range(minActionInterval, maxActionInterval);
         isInterval = true;
-        // IntervalTime Debug
-        //Debug.Log(actionInterval);
     }
 
     void IntervalProcessing()
@@ -49,11 +58,30 @@ public class ActionDecision : MonoBehaviour
 
     void ActDecision()
     {
-        actionNumber = Random.Range(0, actionName.Length) % actionName.Length;
-        // ActionNumber Debug
-        //Debug.Log(actionNumber);
-        
-        SendMessage(actionName[actionNumber]);
+        actionNumber = 0;
+        rnd = Random.Range(0, actTotalNum) % actTotalNum;
+
+        if (rnd > actionProbability[0])
+        {
+            for (int i = 1; i < actionProbability.Length; i++)
+            {
+                ActNumDecision(i);
+            }
+        }
+
+        //SendMessage(actionName[actionNumber]);
         DecisionInterval();
+    }
+
+    void ActNumDecision(int i)
+    {
+        if (actionNumber == 0)
+        {
+            int min = 0;
+            for (int j = i - 1; j >= 0; j--) min += actionProbability[j];
+            int max = min + actionProbability[i];
+
+            if (rnd > min && rnd <= max) actionNumber = i;
+        }
     }
 }

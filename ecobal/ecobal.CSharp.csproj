@@ -94,6 +94,7 @@
     <Compile Include="Assets\Script\Hayashi\Time2Death.cs" />
     <Compile Include="Assets\Script\Matsukawa\ActionDecision.cs" />
     <Compile Include="Assets\Script\Matsukawa\AutoDestory.cs" />
+    <Compile Include="Assets\Script\Matsukawa\BalloonAppearance.cs" />
     <Compile Include="Assets\Script\Matsukawa\BalloonDestroy.cs" />
     <Compile Include="Assets\Script\Matsukawa\BalloonMove.cs" />
     <Compile Include="Assets\Script\Matsukawa\BombBalloonMove.cs" />
@@ -105,6 +106,7 @@
     <Compile Include="Assets\Script\Matsukawa\PlayerSearch.cs" />
     <Compile Include="Assets\Script\Matsukawa\RayJudge.cs" />
     <Compile Include="Assets\Script\Matsukawa\ThrowBomb.cs" />
+    <Compile Include="Assets\Script\Matsukawa\TitleBalloonMotion.cs" />
     <Compile Include="Assets\ShaderWorkshop\Dev\03_ImageEffectsDev\FadeEffect.cs" />
   </ItemGroup>
   <ItemGroup>
