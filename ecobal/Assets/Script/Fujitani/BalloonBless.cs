@@ -33,16 +33,19 @@ public class BalloonBless : MonoBehaviour
     {
         count = 0;
         bomBalloonList = new List<GameObject>();
-        blessStart = true;
+        blessStart = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        count++;
-
+        if (blessStart)
+        {
+            count++;
+        }
         if (count > blessCount)
         {
+            count = 0;
             blessStart = false;
         }
         if (blessStart && count % blessFrequency == 0)
