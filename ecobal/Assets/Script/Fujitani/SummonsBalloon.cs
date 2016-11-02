@@ -22,7 +22,7 @@ public class SummonsBalloon : MonoBehaviour
     void Start()
     {
         balloonList = new List<GameObject>();
-        summonsStart = true;
+        summonsStart = false;
     }
 
     // Update is called once per frame
