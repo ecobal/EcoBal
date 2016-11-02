@@ -15,8 +15,9 @@ public class Player_Shoot : MonoBehaviour {
     public GameObject PenertrateBullet;
     public GameObject ShotShell;
     GameObject Bullet;
+    Transform muzzle;
     public float LimitSpecialTime;
-    public float SpecialTime;
+    float SpecialTime;
 
     public enum ShootBullet
     {
@@ -30,6 +31,7 @@ public class Player_Shoot : MonoBehaviour {
     public int DefaultBulletID;
 	// Use this for initialization
 	void Start () {
+        muzzle = transform.FindChild("Muzzle");
         SpecialTime = LimitSpecialTime;
         shootbullet = (ShootBullet)DefaultBulletID;
 	
@@ -58,8 +60,8 @@ public class Player_Shoot : MonoBehaviour {
                 bulletprefab = ShotShell;
                 break;
         }
-        Bullet = Instantiate(bulletprefab, transform.position+transform.forward*0.5f, transform.rotation) as GameObject;
-        Bullet.GetComponent<Rigidbody>().AddForce(transform.forward * BulletSpeed);
+        Bullet = Instantiate(bulletprefab, muzzle.position, muzzle.rotation) as GameObject;
+        Bullet.GetComponent<Rigidbody>().AddForce(muzzle.forward * BulletSpeed);
 
     }
 
@@ -81,7 +83,6 @@ public class Player_Shoot : MonoBehaviour {
 
     public float SpecialBulletProportion()
     {
-        Debug.Log(SpecialTime / LimitSpecialTime);
         return SpecialTime / LimitSpecialTime;
     }
 }

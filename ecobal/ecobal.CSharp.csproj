@@ -85,8 +85,10 @@
     <Compile Include="Assets\Script\Hayashi\PenetratBullet.cs" />
     <Compile Include="Assets\Script\Hayashi\Player_Move.cs" />
     <Compile Include="Assets\Script\Hayashi\Player_Shoot.cs" />
+    <Compile Include="Assets\Script\Hayashi\Reticle_Move.cs" />
     <Compile Include="Assets\Script\Hayashi\ShotShell.cs" />
     <Compile Include="Assets\Script\Hayashi\TakeItem.cs" />
+    <Compile Include="Assets\Script\Hayashi\Target_Reticle.cs" />
     <Compile Include="Assets\Script\Hayashi\Time2Death.cs" />
     <Compile Include="Assets\Script\Matsukawa\AutoDestory.cs" />
     <Compile Include="Assets\Script\Matsukawa\BalloonDestroy.cs" />
