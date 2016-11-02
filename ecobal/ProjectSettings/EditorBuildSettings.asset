@@ -6,8 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scene/Fujitani/titlemodoki.unity
+    path: Assets/Scene/TitleScene.unity
   - enabled: 1
     path: Assets/Scene/ProtoTestScene.unity
   - enabled: 1
-    path: Assets/Scene/Fujitani/gameoverModoki.unity
+    path: Assets/Scene/BossBattleScene.unity
+  - enabled: 1
+    path: Assets/Scene/GameOverScene.unity
