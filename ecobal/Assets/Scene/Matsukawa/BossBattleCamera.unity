@@ -185,6 +185,48 @@ MonoBehaviour:
   radius: 10
   floating: 2
   YRange: 3
+--- !u!1001 &395002862
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4000014044335966, guid: 72a8780acf15eea4d8b368a0d213deef, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014044335966, guid: 72a8780acf15eea4d8b368a0d213deef, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014044335966, guid: 72a8780acf15eea4d8b368a0d213deef, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014044335966, guid: 72a8780acf15eea4d8b368a0d213deef, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014044335966, guid: 72a8780acf15eea4d8b368a0d213deef, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014044335966, guid: 72a8780acf15eea4d8b368a0d213deef, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014044335966, guid: 72a8780acf15eea4d8b368a0d213deef, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014044335966, guid: 72a8780acf15eea4d8b368a0d213deef, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 72a8780acf15eea4d8b368a0d213deef, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &480614101
 Prefab:
   m_ObjectHideFlags: 0
@@ -341,13 +383,15 @@ GameObject:
   - 136: {fileID: 973657759}
   - 23: {fileID: 973657758}
   - 114: {fileID: 973657762}
+  - 114: {fileID: 973657764}
+  - 114: {fileID: 973657763}
   m_Layer: 0
   m_Name: BossBalloon
   m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &973657758
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -424,11 +468,46 @@ MonoBehaviour:
   maxActionInterval: 4
   minActionInterval: 2
   actionName:
-  - attack
-  - bomb
-  - balloon
+  - OnBlessMode
+  - OnBlessMode
+  - OnBlessMode
   actionProbability: 050000000500000005000000
   actTotalNum: 15
+--- !u!114 &973657763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 973657757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fde95c8d5f131ee49a1e21103cad49a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  balloon: {fileID: 1000010005765728, guid: e34e0fa2291009147b94ce174629a5a5, type: 2}
+  balloonCount: 50
+  rangeMin: 1
+  rangeMax: 2
+--- !u!114 &973657764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 973657757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf8c98cad38f684299ad7d0a8ca09ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  balloon: {fileID: 1000010005765728, guid: e34e0fa2291009147b94ce174629a5a5, type: 2}
+  balloonCount: 10
+  blessCount: 20
+  range: 100
+  blessSpeed: 500
+  blessFrequency: 10
+  blessStartPositionZ: 1
+  bomBalloonList: []
+  rigitCount: 0
 --- !u!1 &1072235937
 GameObject:
   m_ObjectHideFlags: 0

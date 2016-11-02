@@ -69,7 +69,7 @@ public class ActionDecision : MonoBehaviour
             }
         }
 
-        //SendMessage(actionName[actionNumber]);
+        SendMessage(actionName[actionNumber]);
         DecisionInterval();
     }
 
