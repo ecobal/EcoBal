@@ -23,6 +23,7 @@ GameObject:
   - 23: {fileID: 23000010661115970}
   - 114: {fileID: 114000010365636788}
   - 114: {fileID: 114000012944595698}
+  - 114: {fileID: 114000013085292586}
   m_Layer: 0
   m_Name: dragon
   m_TagString: Boss
@@ -131,8 +132,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013922212842}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4.08, z: 2.51}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 4.08, z: 2.87}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4000014044335966}
@@ -180,7 +181,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013922212842}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -192,7 +193,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012681189924}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -208,8 +209,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 255bb5b009116aa4fa07d3d99bc00b7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floatRange: 0
-  sideRange: 0
 --- !u!114 &114000010365636788
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -259,12 +258,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce1acd9474ab76245b6b0aa929bd7edc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxActionInterval: 4
-  minActionInterval: 2
+  maxActionInterval: 5
+  minActionInterval: 4
   actionName:
   - Breath
   - Summon
-  - Breath
+  - Assault
   actionProbability: 050000000500000005000000
   actTotalNum: 15
 --- !u!114 &114000012944595698
@@ -278,6 +277,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a0629147e6b53048ba2ec096b6cc9ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  assault: 0
+--- !u!114 &114000013085292586
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012256688916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a76ba9cf7da284db6804eaa71223e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floatRange: 0.5
 --- !u!114 &114000013546128574
 MonoBehaviour:
   m_ObjectHideFlags: 1

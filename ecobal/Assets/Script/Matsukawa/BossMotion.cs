@@ -3,12 +3,8 @@ using System.Collections;
 
 public class BossMotion : MonoBehaviour
 {
-    public float floatRange;
-    public float sideRange;
-
     private GameObject player;
     private Quaternion forRotation;
-
 
     void Start()
     {

@@ -3,12 +3,16 @@ using System.Collections;
 
 public class BossAssault : MonoBehaviour
 {
+    private GameObject player;
+    private Vector3 assaultPosition;
+    private float assaultTime;
 
-
-    private bool assault;
+    [HideInInspector]
+    public bool assault;
 
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
         assault = false;
     }
 
@@ -20,10 +24,17 @@ public class BossAssault : MonoBehaviour
     void OnAssaultMode()
     {
         assault = true;
+        assaultPosition = player.transform.position + player.transform.TransformVector(0, 0, -2.5f);
     }
 
     void Assault()
     {
-        Debug.Log("a");
+        assaultTime += 1 * Time.deltaTime;
+        transform.position = Vector3.Lerp(transform.position, assaultPosition, 2 * Time.deltaTime);
+        if (assaultTime >= 1.5f)
+        {
+            assault = false;
+            assaultTime = 0;
+        }
     }
 }

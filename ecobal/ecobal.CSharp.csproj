@@ -106,6 +106,7 @@
     <Compile Include="Assets\Script\Matsukawa\BossBattlePlayerMove.cs" />
     <Compile Include="Assets\Script\Matsukawa\BossMotion.cs" />
     <Compile Include="Assets\Script\Matsukawa\ChaseCamera.cs" />
+    <Compile Include="Assets\Script\Matsukawa\DragonFloating.cs" />
     <Compile Include="Assets\Script\Matsukawa\DropItemMotion.cs" />
     <Compile Include="Assets\Script\Matsukawa\IndicateReticle.cs" />
     <Compile Include="Assets\Script\Matsukawa\InjectionBalloonMove.cs" />
