@@ -69,9 +69,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\Fujitani\BalloonBless.cs" />
     <Compile Include="Assets\Script\Fujitani\GollPoint.cs" />
     <Compile Include="Assets\Script\Fujitani\Image_Controller.cs" />
     <Compile Include="Assets\Script\Fujitani\Player_HP.cs" />
+    <Compile Include="Assets\Script\Fujitani\SummonsBalloon.cs" />
     <Compile Include="Assets\Script\Fujitani\gameover_Controller.cs" />
     <Compile Include="Assets\Script\Fujitani\title_Controller.cs" />
     <Compile Include="Assets\Script\Hayashi\Balloon_Contoroller.cs" />
