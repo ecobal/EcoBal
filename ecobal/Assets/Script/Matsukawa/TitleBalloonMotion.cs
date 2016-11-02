@@ -10,12 +10,20 @@ public class TitleBalloonMotion : MonoBehaviour
     public float floatRange = 1.75f;
     public float sideRange = 0.01f;
     public float sideValue = 2.0f;
-    
+
     Rigidbody rigidbody;
+
+    public int id;
+    GameObject appearanceZone;
+    GameObject childBalloon;
 
     void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
+        childBalloon = transform.FindChild("Balloon").gameObject;
+        childBalloon.GetComponent<Renderer>().material.color = new Color(Random.value, Random.value, Random.Range(0, 0.3f), 1.0f);
+        appearanceZone = GameObject.FindGameObjectWithTag("Respawn");
+        id = appearanceZone.GetComponent<BalloonAppearance>().id;
         sinRadius = Random.Range(0, 359);
         cosRadius = Random.Range(0, 359);
     }
@@ -28,8 +36,15 @@ public class TitleBalloonMotion : MonoBehaviour
         rigidbody.velocity = transform.TransformVector(moveVector);
     }
 
+    void SameID()
+    {
+        if (id == appearanceZone.GetComponent<BalloonAppearance>().id) Destroy(gameObject);
+    }
+
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag != "Respawn") Destroy(gameObject);
+        if (other.tag == "Respawn") ;
+        else if (other.tag == "Enemy") ;
+        else Destroy(gameObject);
     }
 }
