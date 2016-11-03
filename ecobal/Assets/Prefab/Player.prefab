@@ -76,6 +76,7 @@ GameObject:
   - 114: {fileID: 114000014142175288}
   - 114: {fileID: 114000013365930030}
   - 114: {fileID: 114000010739182436}
+  - 82: {fileID: 82000014058139420}
   m_Layer: 11
   m_Name: Player
   m_TagString: Player
@@ -211,6 +212,80 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.2, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!82 &82000014058139420
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012887876696}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 63f16b44c72c448469cdb8be6440936b, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!114 &114000010739182436
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -224,7 +299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 1
   downHp: 0.2
-  sceneName: gameoverModoki
+  sceneName: GameOverScene
 --- !u!114 &114000010799402976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -289,7 +364,8 @@ MonoBehaviour:
   PenertrateBullet: {fileID: 1000010122202798, guid: bc6e57e98d79b9244a06a8dfdab610cc,
     type: 2}
   ShotShell: {fileID: 1000014068188364, guid: 99e81cb884db2e04b81ce47b6bf0a2b7, type: 2}
-  LimitSpecialTime: 5
+  LimitSpecialTime: 2.5
+  SpecialTime: 0
   shootbullet: 1
   DefaultBulletID: 0
 --- !u!114 &114000013371378558
