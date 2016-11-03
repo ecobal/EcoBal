@@ -1048,7 +1048,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010525265878, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 4.57
+      value: 4.54
       objectReference: {fileID: 0}
     - target: {fileID: 4000010525265878, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1074,6 +1074,11 @@ Prefab:
         type: 2}
       propertyPath: floatRange
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -1762,6 +1767,11 @@ Prefab:
     - target: {fileID: 1000012887876696, guid: 0a941fd1c433281469059b8cd4098235, type: 2}
       propertyPath: m_Name
       value: 'Player '
+      objectReference: {fileID: 0}
+    - target: {fileID: 82000014058139420, guid: 0a941fd1c433281469059b8cd4098235,
+        type: 2}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0a941fd1c433281469059b8cd4098235, type: 2}
