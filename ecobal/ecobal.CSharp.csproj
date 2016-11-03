@@ -95,6 +95,7 @@
     <Compile Include="Assets\Script\Hayashi\Time2Death.cs" />
     <Compile Include="Assets\Script\Matsukawa\ActionDecision.cs" />
     <Compile Include="Assets\Script\Matsukawa\AutoDestory.cs" />
+    <Compile Include="Assets\Script\Matsukawa\BackBurnerControl.cs" />
     <Compile Include="Assets\Script\Matsukawa\BalloonAppearance.cs" />
     <Compile Include="Assets\Script\Matsukawa\BalloonBreath.cs" />
     <Compile Include="Assets\Script\Matsukawa\BalloonDestroy.cs" />
