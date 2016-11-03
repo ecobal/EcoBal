@@ -30,11 +30,10 @@ public class Player_HP : MonoBehaviour
     {
         if (col.collider.tag == "Enemy")
         {
+            
             hp -= downHp;
             Destroy(col.gameObject);
         }
-        if (hp >= 0) return;
-        SceneManager.LoadScene(sceneName);
     }
 
     void OnTriggerEnter(Collider col)
@@ -44,12 +43,16 @@ public class Player_HP : MonoBehaviour
             hp -= downHp;
             Destroy(col.gameObject);
         }
-        if (hp > 0) return;
-        SceneManager.LoadScene(sceneName);
     }
 
     public float GetHP()
     {
         return hp;
+    }
+
+    void SceneLoder()
+    {
+        BalloonDestroy.isQUitting = true;
+        SceneManager.LoadScene(sceneName);
     }
 }

@@ -24,7 +24,7 @@ public class BossAssault : MonoBehaviour
     void OnAssaultMode()
     {
         assault = true;
-        assaultPosition = player.transform.position + player.transform.TransformVector(0, 3.0f, -2.5f);
+        assaultPosition = player.transform.position + player.transform.TransformVector(0, 0, -2.5f);
     }
 
     void Assault()

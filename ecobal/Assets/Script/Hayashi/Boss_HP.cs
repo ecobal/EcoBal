@@ -16,7 +16,7 @@ public class Boss_HP : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         DefaultBalloonNumber = transform.childCount;
-        Debug.Log(DefaultBalloonNumber);
+        //Debug.Log(DefaultBalloonNumber);
         DeathProportion /= 100;
         
 	
@@ -28,9 +28,10 @@ public class Boss_HP : MonoBehaviour {
         float Proportion = CurrentBaloonNumber / DefaultBalloonNumber;
         if (Proportion <= DeathProportion)
         {
+            BalloonDestroy.isQUitting = true;
             SceneManager.LoadScene(SceneName);
         }
-        Debug.Log(Proportion);
+        //Debug.Log(Proportion);
 	
 	}
 }
