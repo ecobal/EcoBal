@@ -17,7 +17,7 @@ public class Player_Shoot : MonoBehaviour {
     GameObject Bullet;
     Transform muzzle;
     public float LimitSpecialTime;
-    float SpecialTime;
+    public float SpecialTime;
 
     public enum ShootBullet
     {
@@ -29,6 +29,11 @@ public class Player_Shoot : MonoBehaviour {
 
     public ShootBullet shootbullet;
     public int DefaultBulletID;
+
+    bool isSpecial = false;
+
+
+
 	// Use this for initialization
 	void Start () {
         muzzle = transform.FindChild("Muzzle");
@@ -40,8 +45,8 @@ public class Player_Shoot : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         if (Input.GetButtonDown("Fire1")) Shoot();
-        if ((int)shootbullet != DefaultBulletID) SpecialBulletTime();
-        else if ((int)shootbullet == DefaultBulletID) SpecialTime = LimitSpecialTime;
+        if (isSpecial) SpecialBulletTime();
+        else if (!isSpecial) SpecialTime = LimitSpecialTime;
 
     }
 
@@ -68,12 +73,18 @@ public class Player_Shoot : MonoBehaviour {
     void SpecialBulletTime()
     {
         SpecialTime -= Time.deltaTime;
-        if(SpecialTime <= 0) shootbullet = (ShootBullet)DefaultBulletID;
+        if (SpecialTime <= 0)
+        {
+            shootbullet = (ShootBullet)DefaultBulletID;
+            isSpecial = false;
+        }
     }
 
     public void SetSpecialBullet(int number)
     {
         shootbullet = (ShootBullet)number;
+        SpecialTime = LimitSpecialTime;
+        isSpecial = true;
     }
 
     public int GetSpecialBullet()

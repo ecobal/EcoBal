@@ -23,7 +23,6 @@ GameObject:
   - 135: {fileID: 135000011449911406}
   - 23: {fileID: 23000013686837000}
   - 54: {fileID: 54000012122344730}
-  - 114: {fileID: 114000012964920264}
   - 114: {fileID: 114000012346678792}
   m_Layer: 9
   m_Name: test
@@ -112,20 +111,6 @@ MonoBehaviour:
   deathEffectExplosion: {fileID: 1000012203086672, guid: 6a1c92038dee2ed41ad628be25d03ee1,
     type: 2}
   explosion: 0
---- !u!114 &114000012964920264
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000014245303554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa33e6d6c063aa241a5f86770488e47c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  floatRange: 0
-  chase: 0
-  bombThrow: 0
 --- !u!135 &135000011449911406
 SphereCollider:
   m_ObjectHideFlags: 1

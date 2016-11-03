@@ -9,6 +9,12 @@ public class BalloonDestroy : MonoBehaviour
 
     public bool explosion;
 
+    void Start()
+    {
+        isQUitting = false;
+
+    }
+
 
 
     void OnApplicationQuit()
@@ -21,6 +27,7 @@ public class BalloonDestroy : MonoBehaviour
     {
         if (!isQUitting)
         {
+
             if (explosion) Instantiate(deathEffectExplosion, transform.position, transform.rotation);
             else if (!explosion) Instantiate(deathEffect, transform.position, transform.rotation);
         }

@@ -10,6 +10,7 @@ public class TakeItem : MonoBehaviour {
         {
 
             col.gameObject.SendMessage("SetSpecialBullet", ItemID);
+            GetComponent<AudioSource>().PlayOneShot(GetComponent<AudioSource>().clip);
             Destroy(gameObject);
         }
     }

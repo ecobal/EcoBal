@@ -23,8 +23,16 @@ public class title_Controller : MonoBehaviour
 
     }
 
-    public void ChangeScene()
+    public void sendChangeScene()
     {
+        GetComponent<FadeEffect>().ChangeState();
+        StartCoroutine("ChangeScene");
+    }
+
+    IEnumerator ChangeScene()
+    {
+        yield return new WaitForSeconds(0.8f);
+        BalloonDestroy.isQUitting = true;
         SceneManager.LoadScene(sceneName);
     }
 }

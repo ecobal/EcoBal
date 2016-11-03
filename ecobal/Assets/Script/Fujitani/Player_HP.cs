@@ -23,7 +23,10 @@ public class Player_HP : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (hp <= 0)
+        {
+            sendChangeScene();
+        }
     }
 
     void OnCollisionEnter(Collision col)
@@ -50,8 +53,16 @@ public class Player_HP : MonoBehaviour
         return hp;
     }
 
-    void SceneLoder()
+
+    public void sendChangeScene()
     {
+        Camera.main.gameObject.GetComponent<FadeEffect>().ChangeState();
+        StartCoroutine("SceneLoder");
+    }
+
+    IEnumerator SceneLoder()
+    {
+        yield return new WaitForSeconds(0.8f);
         BalloonDestroy.isQUitting = true;
         SceneManager.LoadScene(sceneName);
     }

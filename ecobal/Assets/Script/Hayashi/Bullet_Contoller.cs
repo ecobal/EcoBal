@@ -7,6 +7,7 @@ public class Bullet_Contoller : MonoBehaviour {
     float limitrange;
     void Start()
     {
+        GetComponent<AudioSource>().PlayOneShot(GetComponent<AudioSource>().clip);
         player = GameObject.FindGameObjectWithTag("Player");
         limitrange = player.GetComponent<Player_Shoot>().LimitRange;
     }
@@ -23,8 +24,10 @@ public class Bullet_Contoller : MonoBehaviour {
         if (col.collider.tag == "Enemy") col.gameObject.SendMessage("DestroyObject");
         else Destroy(gameObject);
         */
+
         if (col.collider.tag == "Enemy")
         {
+            col.gameObject.GetComponent<AudioSource>().PlayOneShot(col.gameObject.GetComponent<AudioSource>().clip);
             Destroy(col.gameObject);
             Destroy(gameObject);
         }
@@ -35,6 +38,7 @@ public class Bullet_Contoller : MonoBehaviour {
     {
         if (col.tag == "Enemy")
         {
+            col.gameObject.GetComponent<AudioSource>().PlayOneShot(col.gameObject.GetComponent<AudioSource>().clip);
             Destroy(col.gameObject);
             Destroy(gameObject);
         }
