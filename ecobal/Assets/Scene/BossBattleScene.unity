@@ -143,6 +143,21 @@ Prefab:
       propertyPath: balloonCount
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012430098388, guid: 72a8780acf15eea4d8b368a0d213deef,
+        type: 2}
+      propertyPath: actionProbability.Array.data[0]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012430098388, guid: 72a8780acf15eea4d8b368a0d213deef,
+        type: 2}
+      propertyPath: actTotalNum
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012430098388, guid: 72a8780acf15eea4d8b368a0d213deef,
+        type: 2}
+      propertyPath: actionProbability.Array.data[1]
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 72a8780acf15eea4d8b368a0d213deef, type: 2}
   m_IsPrefabParent: 0
@@ -644,7 +659,7 @@ Prefab:
     - target: {fileID: 114000013365930030, guid: 0a941fd1c433281469059b8cd4098235,
         type: 2}
       propertyPath: DefaultBulletID
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114000010739182436, guid: 0a941fd1c433281469059b8cd4098235,
         type: 2}
