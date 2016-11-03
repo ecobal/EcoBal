@@ -211,6 +211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: ProtoTestScene
+  Button: {fileID: 1753517771}
 --- !u!1 &957587526
 GameObject:
   m_ObjectHideFlags: 0
@@ -803,6 +804,11 @@ Prefab:
         type: 2}
       propertyPath: m_LocalPosition.z
       value: 20.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000014142175288, guid: 0a941fd1c433281469059b8cd4098235,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114000010739182436, guid: 0a941fd1c433281469059b8cd4098235, type: 2}

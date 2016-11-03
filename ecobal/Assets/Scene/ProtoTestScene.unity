@@ -1206,6 +1206,11 @@ Prefab:
       propertyPath: sceneName
       value: GameOverScene
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013365930030, guid: 0a941fd1c433281469059b8cd4098235,
+        type: 2}
+      propertyPath: LimitSpecialTime
+      value: 2.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0a941fd1c433281469059b8cd4098235, type: 2}
   m_IsPrefabParent: 0
