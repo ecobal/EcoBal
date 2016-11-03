@@ -44,7 +44,7 @@ public class Player_HP : MonoBehaviour
             hp -= downHp;
             Destroy(col.gameObject);
         }
-        if (hp >= 0) return;
+        if (hp > 0) return;
         SceneManager.LoadScene(sceneName);
     }
 

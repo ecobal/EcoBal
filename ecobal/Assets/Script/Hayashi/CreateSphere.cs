@@ -9,7 +9,7 @@ public class CreateSphere : MonoBehaviour {
     [SerializeField,Range(0.01f,1)]
     public float Amplitude;
 	// Use this for initialization
-	void Start () {
+	void Awake () {
         mesh = GetComponent<MeshFilter>();
         List<Vector3> pos = RemoveSamePos(mesh.mesh.vertices);
         Debug.Log(pos.Count);

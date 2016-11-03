@@ -562,7 +562,7 @@ Prefab:
     - target: {fileID: 114000011502468956, guid: ba3b249d823ac584d9c4ce686987ca6e,
         type: 2}
       propertyPath: sceneName
-      value: GameOverScene
+      value: ClearScene
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ba3b249d823ac584d9c4ce686987ca6e, type: 2}

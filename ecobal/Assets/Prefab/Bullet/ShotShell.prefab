@@ -82,4 +82,4 @@ MonoBehaviour:
   ShellBullet: {fileID: 1000014283576708, guid: f2a13c6cbe5cbeb4da4f39f26f30ad68,
     type: 2}
   ShellCount: 50
-  SpledRange: 45
+  SpledRange: 30

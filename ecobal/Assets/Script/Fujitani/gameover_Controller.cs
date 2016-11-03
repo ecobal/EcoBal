@@ -5,8 +5,6 @@ using UnityEngine.SceneManagement;
 public class gameover_Controller : MonoBehaviour
 {
 
-    [SerializeField]
-    private string sceneName;
     // Use this for initialization
     void Start()
     {
@@ -19,8 +17,10 @@ public class gameover_Controller : MonoBehaviour
 
     }
 
-    public void ChangeScene()
+    public void ChangeScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
     }
+
+    
 }
