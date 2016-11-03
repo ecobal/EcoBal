@@ -549,7 +549,7 @@ Prefab:
     - target: {fileID: 114000013365930030, guid: 0a941fd1c433281469059b8cd4098235,
         type: 2}
       propertyPath: DefaultBulletID
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114000010739182436, guid: 0a941fd1c433281469059b8cd4098235,
         type: 2}
