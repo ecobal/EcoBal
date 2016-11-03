@@ -22,6 +22,11 @@ public class BalloonDestroy : MonoBehaviour
         isQUitting = true;
     }
 
+    public void PlaySound()
+    {
+        GetComponent<AudioSource>().PlayOneShot(GetComponent<AudioSource>().clip);
+        Destroy(gameObject);
+    }
 
     void OnDestroy()
     {
