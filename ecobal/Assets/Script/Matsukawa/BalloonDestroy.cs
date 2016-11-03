@@ -9,6 +9,12 @@ public class BalloonDestroy : MonoBehaviour
 
     public bool explosion;
 
+    void Start()
+    {
+        isQUitting = false;
+
+    }
+
 
 
     void OnApplicationQuit()
@@ -16,11 +22,17 @@ public class BalloonDestroy : MonoBehaviour
         isQUitting = true;
     }
 
+    public void PlaySound()
+    {
+        GetComponent<AudioSource>().PlayOneShot(GetComponent<AudioSource>().clip);
+        Destroy(gameObject);
+    }
 
     void OnDestroy()
     {
         if (!isQUitting)
         {
+
             if (explosion) Instantiate(deathEffectExplosion, transform.position, transform.rotation);
             else if (!explosion) Instantiate(deathEffect, transform.position, transform.rotation);
         }

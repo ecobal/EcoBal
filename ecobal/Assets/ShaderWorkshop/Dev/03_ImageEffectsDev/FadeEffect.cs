@@ -65,10 +65,10 @@ public class FadeEffect : MonoBehaviour
                 alpha = 0;
                 break;
             case FadeState.FadeIn:
-                alpha -= 0.05f;
+                alpha -= 0.02f;
                 break;
             case FadeState.FadeOut:
-                alpha += 0.05f;
+                alpha += 0.02f;
                 break;
         }
         if (alpha >= 1 && fadestate == FadeState.FadeOut) fadestate = FadeState.FadeIn;

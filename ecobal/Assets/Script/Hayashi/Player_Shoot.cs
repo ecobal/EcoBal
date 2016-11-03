@@ -15,6 +15,9 @@ public class Player_Shoot : MonoBehaviour {
     public GameObject PenertrateBullet;
     public GameObject ShotShell;
     GameObject Bullet;
+    Transform muzzle;
+    public float LimitSpecialTime;
+    public float SpecialTime;
 
     public enum ShootBullet
     {
@@ -26,8 +29,15 @@ public class Player_Shoot : MonoBehaviour {
 
     public ShootBullet shootbullet;
     public int DefaultBulletID;
+
+    bool isSpecial = false;
+
+
+
 	// Use this for initialization
 	void Start () {
+        muzzle = transform.FindChild("Muzzle");
+        SpecialTime = LimitSpecialTime;
         shootbullet = (ShootBullet)DefaultBulletID;
 	
 	}
@@ -35,8 +45,10 @@ public class Player_Shoot : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         if (Input.GetButtonDown("Fire1")) Shoot();
-	
-	}
+        if (isSpecial) SpecialBulletTime();
+        else if (!isSpecial) SpecialTime = LimitSpecialTime;
+
+    }
 
     void Shoot()
     {
@@ -53,14 +65,35 @@ public class Player_Shoot : MonoBehaviour {
                 bulletprefab = ShotShell;
                 break;
         }
-        Bullet = Instantiate(bulletprefab, transform.position+transform.forward*0.5f, transform.rotation) as GameObject;
-        Bullet.GetComponent<Rigidbody>().AddForce(Vector3.forward * BulletSpeed);
-        if (shootbullet != 0) shootbullet = (ShootBullet)DefaultBulletID;
+        Bullet = Instantiate(bulletprefab, muzzle.position, muzzle.rotation) as GameObject;
+        Bullet.GetComponent<Rigidbody>().AddForce(muzzle.forward * BulletSpeed);
 
     }
 
-    public void GetSpecialBullet(int number)
+    void SpecialBulletTime()
+    {
+        SpecialTime -= Time.deltaTime;
+        if (SpecialTime <= 0)
+        {
+            shootbullet = (ShootBullet)DefaultBulletID;
+            isSpecial = false;
+        }
+    }
+
+    public void SetSpecialBullet(int number)
     {
         shootbullet = (ShootBullet)number;
+        SpecialTime = LimitSpecialTime;
+        isSpecial = true;
+    }
+
+    public int GetSpecialBullet()
+    {
+        return (int)shootbullet;
+    }
+
+    public float SpecialBulletProportion()
+    {
+        return SpecialTime / LimitSpecialTime;
     }
 }

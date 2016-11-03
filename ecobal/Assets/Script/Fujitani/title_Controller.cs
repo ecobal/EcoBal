@@ -1,11 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class title_Controller : MonoBehaviour
 {
     [SerializeField]
     private string sceneName;
+    Color col;
+    public GameObject Button;
+
     // Use this for initialization
     void Start()
     {
@@ -15,11 +19,22 @@ public class title_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        col = Button.GetComponent<Image>().color;
+        col.a = Mathf.Sin(5*Time.time);
+        Button.GetComponent<Image>().color = col;
 
     }
 
-    public void ChangeScene()
+    public void sendChangeScene()
     {
+        GetComponent<FadeEffect>().ChangeState();
+        StartCoroutine("ChangeScene");
+    }
+
+    IEnumerator ChangeScene()
+    {
+        yield return new WaitForSeconds(0.8f);
+        BalloonDestroy.isQUitting = true;
         SceneManager.LoadScene(sceneName);
     }
 }

@@ -21,28 +21,34 @@ public class BalloonBless : MonoBehaviour
     [SerializeField]
     private int blessStartPositionZ;
 
+    [SerializeField]
     private List<GameObject> bomBalloonList;
 
     private int count;
+    [SerializeField]
     private int rigitCount;
 
     private bool blessStart;
+
 
     // Use this for initialization
     void Start()
     {
         count = 0;
         bomBalloonList = new List<GameObject>();
-        blessStart = true;
+        blessStart = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        count++;
-
+        if (blessStart)
+        {
+            count++;
+        }
         if (count > blessCount)
         {
+            count = 0;
             blessStart = false;
         }
         if (blessStart && count % blessFrequency == 0)
@@ -60,7 +66,7 @@ public class BalloonBless : MonoBehaviour
                  );
 
             bomBalloonList[i].GetComponent<Rigidbody>().AddForce(
-                bomBalloonList[i].transform.forward * blessSpeed
+                bomBalloonList[i].transform.TransformVector(transform.forward) * blessSpeed
                );
         }
     }
@@ -70,12 +76,10 @@ public class BalloonBless : MonoBehaviour
     {
         for (int i = 0; i < balloonCount; i++)
         {
-            GameObject obj = Instantiate(balloon, transform.position + transform.forward * blessStartPositionZ, transform.rotation) as GameObject;
-            bomBalloonList.Add(obj);
-            obj.gameObject.transform.parent = this.gameObject.transform;
 
+            GameObject obj = Instantiate(balloon, transform.position + transform.forward * blessStartPositionZ + transform.up * 4, transform.rotation) as GameObject;
+                bomBalloonList.Add(obj);
         }
-
     }
 
     public void OnBlessMode()

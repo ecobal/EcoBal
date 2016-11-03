@@ -8,6 +8,8 @@ public class PenetratBullet : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        GetComponent<AudioSource>().PlayOneShot(GetComponent<AudioSource>().clip);
+
         player = GameObject.FindGameObjectWithTag("Player");
         limitrange = player.GetComponent<Player_Shoot>().LimitRange * 2;
 

@@ -215,7 +215,7 @@ Prefab:
     - target: {fileID: 114000013557705134, guid: 82fc21532bf8b3c4596205a13535a459,
         type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82fc21532bf8b3c4596205a13535a459, type: 2}
@@ -400,7 +400,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 240826150}
   m_GameObject: {fileID: 1050065351}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fde95c8d5f131ee49a1e21103cad49a9, type: 3}
   m_Name: 
@@ -422,7 +422,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   balloon: {fileID: 1000010005765728, guid: e34e0fa2291009147b94ce174629a5a5, type: 2}
   balloonCount: 10
-  blessCount: 1000
+  blessCount: 60
   range: 100
   blessSpeed: 500
   blessFrequency: 10

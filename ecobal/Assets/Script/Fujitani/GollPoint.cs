@@ -23,6 +23,7 @@ public class GollPoint : MonoBehaviour
     {
         if (col.collider.tag == "Player")
         {
+            BalloonDestroy.isQUitting = true;
             SceneManager.LoadScene(sceneName);
         }
     }

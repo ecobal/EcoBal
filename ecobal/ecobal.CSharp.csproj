@@ -77,6 +77,7 @@
     <Compile Include="Assets\Script\Fujitani\gameover_Controller.cs" />
     <Compile Include="Assets\Script\Fujitani\title_Controller.cs" />
     <Compile Include="Assets\Script\Hayashi\Balloon_Contoroller.cs" />
+    <Compile Include="Assets\Script\Hayashi\Boss_HP.cs" />
     <Compile Include="Assets\Script\Hayashi\BulletDebugCode.cs" />
     <Compile Include="Assets\Script\Hayashi\Bullet_Contoller.cs" />
     <Compile Include="Assets\Script\Hayashi\Camera_Chase.cs" />
@@ -87,20 +88,33 @@
     <Compile Include="Assets\Script\Hayashi\PenetratBullet.cs" />
     <Compile Include="Assets\Script\Hayashi\Player_Move.cs" />
     <Compile Include="Assets\Script\Hayashi\Player_Shoot.cs" />
+    <Compile Include="Assets\Script\Hayashi\Reticle_Move.cs" />
     <Compile Include="Assets\Script\Hayashi\ShotShell.cs" />
     <Compile Include="Assets\Script\Hayashi\TakeItem.cs" />
+    <Compile Include="Assets\Script\Hayashi\Target_Reticle.cs" />
     <Compile Include="Assets\Script\Hayashi\Time2Death.cs" />
+    <Compile Include="Assets\Script\Matsukawa\ActionDecision.cs" />
     <Compile Include="Assets\Script\Matsukawa\AutoDestory.cs" />
+    <Compile Include="Assets\Script\Matsukawa\BalloonAppearance.cs" />
+    <Compile Include="Assets\Script\Matsukawa\BalloonBreath.cs" />
     <Compile Include="Assets\Script\Matsukawa\BalloonDestroy.cs" />
     <Compile Include="Assets\Script\Matsukawa\BalloonMove.cs" />
+    <Compile Include="Assets\Script\Matsukawa\BalloonSummon.cs" />
     <Compile Include="Assets\Script\Matsukawa\BombBalloonMove.cs" />
+    <Compile Include="Assets\Script\Matsukawa\BossAction.cs" />
+    <Compile Include="Assets\Script\Matsukawa\BossAssault.cs" />
     <Compile Include="Assets\Script\Matsukawa\BossBattleCamera.cs" />
     <Compile Include="Assets\Script\Matsukawa\BossBattlePlayerMove.cs" />
+    <Compile Include="Assets\Script\Matsukawa\BossMotion.cs" />
     <Compile Include="Assets\Script\Matsukawa\ChaseCamera.cs" />
+    <Compile Include="Assets\Script\Matsukawa\DragonFloating.cs" />
+    <Compile Include="Assets\Script\Matsukawa\DropItemMotion.cs" />
     <Compile Include="Assets\Script\Matsukawa\IndicateReticle.cs" />
+    <Compile Include="Assets\Script\Matsukawa\InjectionBalloonMove.cs" />
     <Compile Include="Assets\Script\Matsukawa\PlayerSearch.cs" />
     <Compile Include="Assets\Script\Matsukawa\RayJudge.cs" />
     <Compile Include="Assets\Script\Matsukawa\ThrowBomb.cs" />
+    <Compile Include="Assets\Script\Matsukawa\TitleBalloonMotion.cs" />
     <Compile Include="Assets\ShaderWorkshop\Dev\03_ImageEffectsDev\FadeEffect.cs" />
   </ItemGroup>
   <ItemGroup>
