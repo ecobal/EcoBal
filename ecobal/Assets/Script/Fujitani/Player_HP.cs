@@ -14,10 +14,12 @@ public class Player_HP : MonoBehaviour
 
     [SerializeField]
     private string sceneName;
+
+    private bool justBeforeGameover;
     // Use this for initialization
     void Start()
     {
-
+        justBeforeGameover = false;
     }
 
     // Update is called once per frame
@@ -27,14 +29,21 @@ public class Player_HP : MonoBehaviour
         {
             sendChangeScene();
         }
+
+        if (hp <= 0.21)
+        {
+            justBeforeGameover = true;
+        }
+
     }
 
     void OnCollisionEnter(Collision col)
     {
         if (col.collider.tag == "Enemy")
         {
-            
             hp -= downHp;
+
+            if (justBeforeGameover) hp = 0;
             Destroy(col.gameObject);
         }
     }
@@ -44,6 +53,8 @@ public class Player_HP : MonoBehaviour
         if (col.tag == "Enemy")
         {
             hp -= downHp;
+
+            if (justBeforeGameover) hp = 0;
             Destroy(col.gameObject);
         }
     }
