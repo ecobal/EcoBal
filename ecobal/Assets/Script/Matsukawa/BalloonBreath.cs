@@ -35,5 +35,6 @@ public class BalloonBreath : MonoBehaviour
             Instantiate(breathBalloon, transform.position + formPosition, transform.rotation);
         }
         breathStart = false;
+        transform.parent.SendMessage("IntervalStart");
     }
 }

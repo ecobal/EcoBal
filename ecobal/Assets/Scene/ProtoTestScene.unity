@@ -2593,17 +2593,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 114000014142175288, guid: 0a941fd1c433281469059b8cd4098235,
-        type: 2}
-      propertyPath: SpwanPoint
-      value: 
-      objectReference: {fileID: 1759012303}
     - target: {fileID: 1000012887876696, guid: 0a941fd1c433281469059b8cd4098235, type: 2}
       propertyPath: m_Name
       value: 'Player '
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114000011537104270, guid: 0a941fd1c433281469059b8cd4098235, type: 2}
+    - target: {fileID: 114000012957772072, guid: 0a941fd1c433281469059b8cd4098235,
+        type: 2}
+      propertyPath: SpwanPoint
+      value: 
+      objectReference: {fileID: 1759012303}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0a941fd1c433281469059b8cd4098235, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &1040316616 stripped
@@ -2971,20 +2970,6 @@ GameObject:
   m_PrefabParentObject: {fileID: 1000012887876696, guid: 0a941fd1c433281469059b8cd4098235,
     type: 2}
   m_PrefabInternal: {fileID: 1025080510}
---- !u!114 &1148476341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1148476340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c7e016a16560cb44b3a30997da8f12c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
-  turnSpeed: 1
-  SpwanPoint: {fileID: 1759012303}
 --- !u!4 &1154129846 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000010525265878, guid: e7321d49f4c8f3849868f0cfc292bd95,
@@ -4138,6 +4123,16 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012071221928, guid: e23c736d39a82a54db1088f48faa2c18, type: 2}
       propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011083751892, guid: e23c736d39a82a54db1088f48faa2c18,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011083751892, guid: e23c736d39a82a54db1088f48faa2c18,
+        type: 2}
+      propertyPath: fadestate
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
