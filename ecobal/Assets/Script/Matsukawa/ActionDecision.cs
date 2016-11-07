@@ -9,6 +9,7 @@ public class ActionDecision : MonoBehaviour
     private float actionInterval;
     private float intervalTime;
     private bool isInterval;
+    private bool isAction;
     #endregion
 
     public string[] actionName;
@@ -16,6 +17,8 @@ public class ActionDecision : MonoBehaviour
     private int actionNumber = 0;
     public int actTotalNum;
     private int rnd;
+
+    
 
     void OnValidate()
     {
@@ -27,13 +30,14 @@ public class ActionDecision : MonoBehaviour
     void Start()
     {
         isInterval = true;
+        isAction = false;
         actionInterval = maxActionInterval / 2;
         actionNumber = 0;
     }
 
     void Update()
     {
-        if (!isInterval) ActDecision();
+        if (!isInterval && !isAction) ActDecision();
 
         actionNumber = Random.Range(0, 5);
         IntervalProcessing();
@@ -42,7 +46,6 @@ public class ActionDecision : MonoBehaviour
     void DecisionInterval()
     {
         actionInterval = Random.Range(minActionInterval, maxActionInterval);
-        isInterval = true;
     }
 
     void IntervalProcessing()
@@ -69,6 +72,7 @@ public class ActionDecision : MonoBehaviour
             }
         }
 
+        isAction = true;
         SendMessage(actionName[actionNumber]);
         DecisionInterval();
     }
@@ -83,5 +87,11 @@ public class ActionDecision : MonoBehaviour
 
             if (rnd > min && rnd <= max) actionNumber = i;
         }
+    }
+
+    void IntervalStart()
+    {
+        isInterval = true;
+        isAction = false;
     }
 }

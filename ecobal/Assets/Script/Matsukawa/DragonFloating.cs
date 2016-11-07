@@ -12,7 +12,7 @@ public class DragonFloating : MonoBehaviour
 
     void Update()
     {
-        if (!GetComponent<BossAssault>().assault)
+        if (!GetComponent<BossAssault>().preliminalyAction)
         {
             transform.position = transform.parent.position + new Vector3(0, floatRange * Mathf.Sin(Time.realtimeSinceStartup), 0);
         }
