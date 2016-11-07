@@ -18,6 +18,8 @@ public class BossAssault : MonoBehaviour
     [HideInInspector]
     public bool preliminalyAction;
 
+    private Quaternion forRotation;
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -53,11 +55,18 @@ public class BossAssault : MonoBehaviour
     {
         timerPreliminaly += 1 * Time.deltaTime;
         transform.position = Vector3.Lerp(transform.position, transform.position + transform.TransformVector(0, 0, -preliminalyDistance), 1 * Time.deltaTime);
+        Rotation();
         if (timerPreliminaly >= preliminalyTime)
         {
             assault = true;
-            assaultPosition = player.transform.position + player.transform.TransformVector(0, Random.Range(-4.0f, -2.5f), -2.5f);
+            assaultPosition = player.transform.position + player.transform.TransformVector(0, Random.Range(-6.0f, -2.5f), -2.5f);
             timerPreliminaly = 0;
         }
+    }
+
+    void Rotation()
+    {
+        forRotation = Quaternion.LookRotation(player.transform.position - transform.position);
+        transform.rotation = Quaternion.Slerp(transform.rotation, forRotation, 1 * Time.deltaTime);
     }
 }
