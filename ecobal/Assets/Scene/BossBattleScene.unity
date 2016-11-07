@@ -277,7 +277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_shader: {fileID: 4800000, guid: bc1597ba47f250b4eb6f59de00570d92, type: 3}
-  fadestate: 1
+  fadestate: 0
   color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!82 &536054894
 AudioSource:
@@ -605,6 +605,23 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d102bf705f578e7419a96e13141c6c92, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1276036269 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000011940660392, guid: 0a941fd1c433281469059b8cd4098235,
+    type: 2}
+  m_PrefabInternal: {fileID: 1311181281}
+--- !u!114 &1276036271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1276036269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 314e24b96c073bb46a31529aab088132, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lerpSpeed: 4
 --- !u!1001 &1311181281
 Prefab:
   m_ObjectHideFlags: 0
@@ -670,6 +687,16 @@ Prefab:
         type: 2}
       propertyPath: LimitSpecialTime
       value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 82000014058139420, guid: 0a941fd1c433281469059b8cd4098235,
+        type: 2}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 54000012481759136, guid: 0a941fd1c433281469059b8cd4098235,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 112
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114000014142175288, guid: 0a941fd1c433281469059b8cd4098235, type: 2}

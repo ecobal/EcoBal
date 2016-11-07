@@ -71,6 +71,7 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Fujitani\BalloonBless.cs" />
     <Compile Include="Assets\Script\Fujitani\GollPoint.cs" />
+    <Compile Include="Assets\Script\Fujitani\HumanSlope.cs" />
     <Compile Include="Assets\Script\Fujitani\Image_Controller.cs" />
     <Compile Include="Assets\Script\Fujitani\Player_HP.cs" />
     <Compile Include="Assets\Script\Fujitani\SummonsBalloon.cs" />

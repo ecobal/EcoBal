@@ -78,7 +78,7 @@ public class BalloonBless : MonoBehaviour
         {
 
             GameObject obj = Instantiate(balloon, transform.position + transform.forward * blessStartPositionZ + transform.up * 4, transform.rotation) as GameObject;
-                bomBalloonList.Add(obj);
+            bomBalloonList.Add(obj);
         }
     }
 
