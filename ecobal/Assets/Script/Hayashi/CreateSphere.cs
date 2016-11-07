@@ -4,14 +4,14 @@ using System.Collections.Generic;
 
 public class CreateSphere : MonoBehaviour {
 
-    MeshFilter mesh;
+    public Mesh mesh;
     public GameObject sphere;
     [SerializeField,Range(0.01f,1)]
     public float Amplitude;
 	// Use this for initialization
 	void Awake () {
-        mesh = GetComponent<MeshFilter>();
-        List<Vector3> pos = RemoveSamePos(mesh.mesh.vertices);
+        //mesh = GetComponent<Mesh>();
+        List<Vector3> pos = RemoveSamePos(mesh.vertices);
         Debug.Log(pos.Count);
         foreach (Vector3 v in pos)
         {
