@@ -5,36 +5,59 @@ public class BossAssault : MonoBehaviour
 {
     private GameObject player;
     private Vector3 assaultPosition;
-    private float assaultTime;
+
+    public float assaultSpeed;
+    private float assaultInterpolation;
+
+    public float preliminalyTime;
+    public float preliminalyDistance;
+    private float timerPreliminaly;
 
     [HideInInspector]
     public bool assault;
+    [HideInInspector]
+    public bool preliminalyAction;
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         assault = false;
+        preliminalyAction = false;
     }
 
     void Update()
     {
-        if (assault) Assault();
+        if (assault && preliminalyAction) Assault();
+        else if (!assault && preliminalyAction) PreliminalyAction();
     }
 
     void OnAssaultMode()
     {
-        assault = true;
-        assaultPosition = player.transform.position + player.transform.TransformVector(0, -2.5f, -2.5f);
+        preliminalyAction = true;
     }
 
     void Assault()
     {
-        assaultTime += 1 * Time.deltaTime;
-        transform.position = Vector3.Lerp(transform.position, assaultPosition, 2 * Time.deltaTime);
-        if (assaultTime >= 1.5f)
+        assaultInterpolation += assaultSpeed * Time.deltaTime;
+        transform.position = Vector3.Lerp(transform.position, assaultPosition, assaultInterpolation / 10);
+        if (assaultInterpolation >= assaultSpeed)
         {
             assault = false;
-            assaultTime = 0;
+            preliminalyAction = false;
+            assaultInterpolation = 0;
+            transform.parent.SendMessage("IntervalStart");
+        }
+    }
+
+    void PreliminalyAction()
+    {
+        timerPreliminaly += 1 * Time.deltaTime;
+        transform.position = Vector3.Lerp(transform.position, transform.position + transform.TransformVector(0, 0, -preliminalyDistance), 1 * Time.deltaTime);
+        if (timerPreliminaly >= preliminalyTime)
+        {
+            assault = true;
+            assaultPosition = player.transform.position + player.transform.TransformVector(0, Random.Range(-4.0f, -2.5f), -2.5f);
+            timerPreliminaly = 0;
         }
     }
 }

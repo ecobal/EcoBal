@@ -34,5 +34,6 @@ public class BalloonSummon : MonoBehaviour
             Instantiate(summonBalloon, transform.position + formPosition, transform.rotation);
         }
         summonStart = false;
+        transform.parent.SendMessage("IntervalStart");
     }
 }
