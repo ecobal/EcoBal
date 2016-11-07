@@ -17,6 +17,8 @@ public class ActionDecision : MonoBehaviour
     public int actTotalNum;
     private int rnd;
 
+    
+
     void OnValidate()
     {
         System.Array.Resize(ref actionProbability, actionName.Length);
