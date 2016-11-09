@@ -339,6 +339,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -461,6 +466,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -520,7 +530,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -778,6 +788,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -834,6 +849,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -888,6 +908,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -949,7 +974,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -1106,7 +1131,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -1172,7 +1197,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -1313,7 +1338,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -1375,6 +1400,11 @@ Prefab:
         type: 2}
       propertyPath: chase
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -1460,6 +1490,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1584,50 +1619,13 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &233770728
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4000013925727908, guid: 918fe8cb84a37e244aca323733e15882, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013925727908, guid: 918fe8cb84a37e244aca323733e15882, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 1.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013925727908, guid: 918fe8cb84a37e244aca323733e15882, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013925727908, guid: 918fe8cb84a37e244aca323733e15882, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013925727908, guid: 918fe8cb84a37e244aca323733e15882, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013925727908, guid: 918fe8cb84a37e244aca323733e15882, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013925727908, guid: 918fe8cb84a37e244aca323733e15882, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013925727908, guid: 918fe8cb84a37e244aca323733e15882, type: 2}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 918fe8cb84a37e244aca323733e15882, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &240592293 stripped
 Transform:
@@ -2017,7 +2015,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -2144,6 +2142,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2353,7 +2356,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000010169533742, guid: ba3b249d823ac584d9c4ce686987ca6e, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.13
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4000010169533742, guid: ba3b249d823ac584d9c4ce686987ca6e, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2382,6 +2385,10 @@ Prefab:
     - target: {fileID: 4000010169533742, guid: ba3b249d823ac584d9c4ce686987ca6e, type: 2}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010169533742, guid: ba3b249d823ac584d9c4ce686987ca6e, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 27.38
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ba3b249d823ac584d9c4ce686987ca6e, type: 2}
@@ -2442,7 +2449,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -2771,6 +2778,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -2897,6 +2909,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -2953,6 +2970,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -3007,6 +3029,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3083,7 +3110,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -3231,7 +3258,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -3364,7 +3391,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -3420,6 +3447,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3739,6 +3771,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -3803,7 +3840,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -3864,7 +3901,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -4122,6 +4159,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -4263,6 +4305,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -4317,6 +4364,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4445,6 +4497,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -4499,6 +4556,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4623,6 +4685,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -4682,7 +4749,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -4821,9 +4888,31 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &808997472 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000013917342122, guid: 0a941fd1c433281469059b8cd4098235,
+    type: 2}
+  m_PrefabInternal: {fileID: 1025080510}
+--- !u!114 &808997475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 808997472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 314e24b96c073bb46a31529aab088132, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lerpSpeed: 1
 --- !u!1 &811304744
 GameObject:
   m_ObjectHideFlags: 0
@@ -5004,7 +5093,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -5075,7 +5164,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -5188,6 +5277,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5432,7 +5526,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -5488,6 +5582,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5556,6 +5655,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -5596,7 +5700,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cdd683ba8990b8b4fb2181723b2027b1, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: cdd683ba8990b8b4fb2181723b2027b1, type: 3}
       propertyPath: m_Name
@@ -5656,6 +5760,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5789,6 +5898,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -5865,6 +5979,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -5924,6 +6043,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5987,6 +6111,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -6027,7 +6156,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013622606278, guid: 0a941fd1c433281469059b8cd4098235, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114000014142175288, guid: 0a941fd1c433281469059b8cd4098235,
         type: 2}
@@ -6046,13 +6175,19 @@ Prefab:
     - target: {fileID: 224000012149102148, guid: 0a941fd1c433281469059b8cd4098235,
         type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4000010992850142, guid: 0a941fd1c433281469059b8cd4098235, type: 2}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114000012957772072, guid: 0a941fd1c433281469059b8cd4098235,
+        type: 2}
+      propertyPath: SpwanPoint
+      value: 
+      objectReference: {fileID: 1759012303}
+    m_RemovedComponents:
+    - {fileID: 114000012700977286, guid: 0a941fd1c433281469059b8cd4098235, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 0a941fd1c433281469059b8cd4098235, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1026908897
@@ -6158,6 +6293,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6287,6 +6427,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -6351,7 +6496,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -6473,6 +6618,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6740,6 +6890,20 @@ GameObject:
   m_PrefabParentObject: {fileID: 1000012887876696, guid: 0a941fd1c433281469059b8cd4098235,
     type: 2}
   m_PrefabInternal: {fileID: 1025080510}
+--- !u!114 &1148476341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1148476340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c7e016a16560cb44b3a30997da8f12c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  turnSpeed: 1
+  SpwanPoint: {fileID: 1759012303}
 --- !u!4 &1148476346 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000013622606278, guid: 0a941fd1c433281469059b8cd4098235,
@@ -6887,7 +7051,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -7024,6 +7188,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -7261,6 +7430,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -7325,6 +7499,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -7396,7 +7575,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -7513,6 +7692,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -7821,7 +8005,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -8344,6 +8528,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -8403,7 +8592,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
@@ -8506,7 +8695,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000014142849330, guid: 45684cd48b462164da84552f2185b1f0, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1000010726539608, guid: 45684cd48b462164da84552f2185b1f0, type: 2}
       propertyPath: m_Name
@@ -8772,6 +8961,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -9018,6 +9212,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -9079,6 +9278,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -9133,6 +9337,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9211,6 +9420,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -9271,6 +9485,11 @@ Prefab:
         type: 2}
       propertyPath: chase
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -9511,6 +9730,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -9565,6 +9789,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9703,6 +9932,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -9763,6 +9997,11 @@ Prefab:
         type: 2}
       propertyPath: chase
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -9921,7 +10160,7 @@ Transform:
   - {fileID: 347587015}
   - {fileID: 1335668982}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
 --- !u!1001 &1582229930
 Prefab:
   m_ObjectHideFlags: 0
@@ -9973,6 +10212,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -10092,6 +10336,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -10161,7 +10410,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -10283,7 +10532,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -10409,6 +10658,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -10682,6 +10936,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -10741,7 +11000,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
@@ -11060,6 +11319,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -11170,7 +11434,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cdd683ba8990b8b4fb2181723b2027b1, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: cdd683ba8990b8b4fb2181723b2027b1, type: 3}
       propertyPath: m_Name
@@ -11298,6 +11562,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -11359,6 +11628,11 @@ Prefab:
       propertyPath: chase
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -11413,6 +11687,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -11671,6 +11950,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -11916,6 +12200,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -11976,6 +12265,11 @@ Prefab:
         type: 2}
       propertyPath: chase
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
@@ -12296,6 +12590,11 @@ Prefab:
       propertyPath: chase
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -12425,6 +12724,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -12561,7 +12865,7 @@ Prefab:
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: bombThrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
@@ -12709,6 +13013,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7321d49f4c8f3849868f0cfc292bd95, type: 2}
   m_IsPrefabParent: 0
@@ -12763,6 +13072,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -12965,6 +13279,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -13216,6 +13535,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -13472,6 +13796,11 @@ Prefab:
     - target: {fileID: 82000013471476228, guid: e7321d49f4c8f3849868f0cfc292bd95,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013945431514, guid: e7321d49f4c8f3849868f0cfc292bd95,
+        type: 2}
+      propertyPath: bombThrow
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

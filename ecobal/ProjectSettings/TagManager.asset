@@ -7,6 +7,11 @@ TagManager:
   - Enemy
   - Fire
   - Boss
+  - Boss_Body
+  - Boss_Right
+  - Boss_Left
+  - Boss_Head
+  - Boss_Tail
   layers:
   - Default
   - TransparentFX

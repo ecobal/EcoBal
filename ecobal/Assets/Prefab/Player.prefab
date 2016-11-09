@@ -391,7 +391,7 @@ GameObject:
   - 114: {fileID: 114000013365930030}
   - 114: {fileID: 114000010739182436}
   - 82: {fileID: 82000014058139420}
-  - 114: {fileID: 114000012957772072}
+  - 114: {fileID: 114000012700977286}
   m_Layer: 11
   m_Name: Player
   m_TagString: Player
@@ -1118,7 +1118,7 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114000012957772072
+--- !u!114 &114000012700977286
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1126,12 +1126,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000012887876696}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c7e016a16560cb44b3a30997da8f12c, type: 3}
+  m_Script: {fileID: 11500000, guid: f3e8cce83123dfd4cbc736741a37746c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
-  turnSpeed: 1
-  SpwanPoint: {fileID: 0}
+  rotationSpeed: 0.7
+  radius: 10
+  floating: 2
+  YRange: 3
 --- !u!114 &114000013101278074
 MonoBehaviour:
   m_ObjectHideFlags: 1

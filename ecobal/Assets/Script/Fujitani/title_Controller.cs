@@ -10,6 +10,9 @@ public class title_Controller : MonoBehaviour
     Color col;
     public GameObject Button;
 
+    public GameObject Intro;
+
+
     // Use this for initialization
     void Start()
     {
@@ -23,6 +26,11 @@ public class title_Controller : MonoBehaviour
         col.a = Mathf.Sin(5*Time.time);
         Button.GetComponent<Image>().color = col;
 
+    }
+
+    public void OpenIntro()
+    {
+        Intro.GetComponent<Animator>().Play("Anim");
     }
 
     public void sendChangeScene()
